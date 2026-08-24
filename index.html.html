@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Coder Ravi Portfolio Website | HTML, CSS, Javascript, phosphor-icons</title>
+      <link rel="shortcut icon" href="assests/log.jpg" type="image/x-icon">
+      <link rel="stylesheet" href="style/style.css"/>
+      <link rel="stylesheet" href="style/home.css"/>
+      <link rel="stylesheet" href="style/services.css"/>
+      <link rel="stylesheet" href="style/about.css"/>
+      <link rel="stylesheet" href="style/projects.css"/>
+      <link rel="stylesheet" href="style/contact.css"/>
+      <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"/>
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    </head>      
+    <body>
+         <div class="main-container">
+          <header>
+            <div class="brand-info">
+                <img src="assests/log.jpg" alt="logo" title="Logo" loading="lazy">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="menu-area">
+                <input type="checkbox"
+                id="menu-toggle"  hidden/>
+
+                <label for="menu-toggle"
+                class="menu-icon"><i class="ph ph-list"></i></label>
+
+                <label for="menu-toggle" 
+                id="overlay"></label>
+
+
+
+            <nav>
+                <a href="#" style="--i:1" data-tab="home" class="navlink active"> Home</a>
+                 <a href="#" style="--i:1" data-tab="services" class="navlink"> Services</a>
+                <a href="#" style="--i:2" data-tab="about" class="navlink "> About</a>
+                <a href="#" style="--i:3" data-tab="projects" class="navlink "> Projects</a>
+                <a href="#" style="--i:4" data-tab="contact" class="navlink "> Contact</a>
+            </nav>
+            </div>
+          </header>
+
+
+            <section id="home" class="content active">
+             <div class="details">
+
+                <h2>
+                    <span>Coder</span>
+                    Ravi
+                </h2>
+                <h3>
+                    I'm 
+                    <span id="typing-span"></span>
+                </h3>
+                <p> Hi, I'm Ravi Murmu, student of BCA from MARWARI COLLEGE BHAGALPUR. Where i learning about computer and do basic coding. I am a Developer, Student, Creator.
+                </p>
+              <div class="bottom">
+                  <button class="btn">Download CV</button>
+               
+                 <div class="social-icons">
+                     <a href="#">
+                      <i class="ph ph-instagram-logo"></i>
+                     </a>
+                     <a href="#">
+                         <i class="ph ph-youtube-logo"></i>
+                     </a>
+                     <a href="#">
+                         <i class="ph ph-github-logo"></i>
+                     </a>
+                     <a href="#">
+                         <i class="ph ph-linkedin-logo"></i>
+                     </a>
+                    </div>
+                </div>
+             </div>
+
+             <div class="img-container">
+                <img src="assests/ravi.jpg" 
+                alt="Profile Picture" 
+                tittle="profile picture" 
+                loading="lazy"/>
+             </div>
+            
+            
+            </section>
+
+          <section id="about" class="content">
+            <div class="sidebar">
+                <h3>Why Hire Me ?</h3>
+                <p>You should hire me because I build fast, clean, and user-friendly websites that match your business goals. I have solid experience with website development, and I focus heavily on writing maintainable code and optimizing site performance. I don't just write code; I make sure the end user gets a great experience. I am also eager to learn new tools and fit smoothly into your team.</p>
+                <div class="tabs">
+                    <span data-section="experience" class="tab">Experience</span>
+                    <span data-section="education" class="tab">Education</span>
+                    <span data-section="skills" class="tab">skills</span>
+                    <span data-section="about-me" class="tab">About Me</span>
+                </div>
+            </div>
+
+            <aside id="experience" class="tab-content active">
+                <h2>My <span>Experience</span></h2>
+                <p>Here are some of my professional experiences that showcase my journey, skills, and dedication in web development and collaboration.
+                </p>
+                <div class="experience-list"></div>
+            </aside>
+
+            <aside id="education" class="tab-content">
+                <h2>My <span>Education</span></h2>
+                <p>Here are my educational qualifications that have built a strong foundation in technology, problem-solving, and continuous learning in web development.</p>
+                <div class="education-list"></div>
+            </aside>
+
+            <aside id="skills" class="tab-content">
+                <h2>My <span>Skills</span></h2>
+                <p>Here are the key skills I’ve mastered through hands-on experience, enabling me to build high-quality, scalable, and responsive web applications.</p>
+                <div class="skill-list">
+                    <div class="skill-box">
+                        <img src="assests/html_files/bootstrap.png"/>
+                    </div>
+                </div>
+            </aside>
+
+            <aside id="about-me" class="tab-content">
+                <h2>About <span>Me</span></h2>
+                <p>I'm a passionate developer dedicated to building impactful digital experiences, blending creativity and code to solve real-world problems efficiently and effectively.</p>
+                <div class="my-info">
+                     <div class="info-box"><span>Name :</span> <span>Coder Ravi</span></div>
+                     <div class="info-box"><span>Country :</span> <span>India</span></div>
+                     <div class="info-box"><span>Industry :</span> <span>Software & IT</span></div>
+                     <div class="info-box"><span>Experience :</span> <span>2+ years</span></div>
+                     <div class="info-box"><span>Address :</span> <span>Imamnagr, Pirpainti, Bihar, India</span></div>
+                </div>
+            </aside>
+          
+        </section>
+
+            <section id="services" class="content"><h2>MY <span>Services</span></h2>
+                <div class="services-list">
+                </div>
+            </section>
+
+        <section id="projects" class="content">
+            <div class="projects">
+            </div>
+        </section>
+
+            
+        
+        <section id="contact" class="content">
+            <div class="contact-info">
+                <h2>Let`s Work <span>Together</span></h2>
+                <p>Got an exciting idea, a project, or just want to say hi? Drop me a message below or connect with me directly via email or phone. Let’s build something great together!</p>
+                <div class="contact-media">
+                </div>
+            </div>
+
+            <form action="#" id="contact-form">
+                    <fieldset>
+                        <legend>
+                            <span>Contact</span>
+                            Me !
+                        </legend>
+                        <div class="fields">
+                            <div>
+                               <label for ="name">Name :</label>
+                               <input 
+                               type="text" name="name" id="name" placeholder="Ravi raj" required/>
+                            </div>
+                             <div>
+                               <label for ="email">Email :</label>
+                               <input 
+                               type="email" 
+                               name="email" 
+                               id="email" placeholder="ravimurmu578@gmail.com" required/>
+                            </div>
+                             <div>
+                               <label for ="phone">Phone :</label>
+                               <input 
+                               type="tel" 
+                               name="phone" 
+                               id="phone" placeholder="+918969781655" required/>
+                            </div>
+
+                            <div>
+                                <label for="message">Message :</label>
+                                <textarea
+                                name="message"
+                                id="message"
+                                cols="30"
+                                rows="5"
+                                placeholder="Hi ! Coder Ravi" required
+                                ></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn" id="send-msg">
+                            Send Message
+                        </button>
+                    </fieldset>
+                </form>
+        </section>
+    </div>
+    <script src="scripts/script.js" type="module" defer></script>
+    <script src="scripts/about.js" type="module" defer></script>
+    <script src="scripts/projects.js" type="module" defer></script>
+    <script src="scripts/contact.js" type="module" defer></script>
+     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+              publicKey: "wGh9cgnSpP3ORmVrZ",
+            });
+        })();
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js">
+    </script>
+  </body>
+</html>
